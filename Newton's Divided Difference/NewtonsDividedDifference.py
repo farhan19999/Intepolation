@@ -20,7 +20,3 @@ def interpolate_func(x, n, X, Y):
         i+=1
     return ans
     
-if __name__ == '__main__':
-    x = [0,10,15,20,22.5,30]
-    y = [0,227.4,362.78,517.35,602.97,901.67]
-    print(interpolate_func(16, 3, x[1:5], y[1:5]))
